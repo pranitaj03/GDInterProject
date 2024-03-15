@@ -1,0 +1,43 @@
+.q{
+    color:rgb(255, 255, 255);
+    background-color: #091E3E;
+}
+
+.carousel-inner{
+    max-height: 600px;
+}
+
+.para{
+    font-size: 17px;
+}
+
+.gd_info h4 {
+    color: #00c46f;
+}
+
+.bg_green {
+    background: #00c46f;
+}
+
+.about_us_sec_background{
+    background: #00c37321;
+}
+
+
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 0;
+    background: #60bf6feb;
+    border-radius: 2px;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
